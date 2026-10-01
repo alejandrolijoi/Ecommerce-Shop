@@ -5,13 +5,13 @@
 }
 
 :root {
-  --bg: #384152;
-  --surface: #465166;
-  --card: #546178;
-  --border: #68758f;
+  --bg: #1b2a4a;
+  --surface: #23375d;
+  --card: #2d4570;
+  --border: #3d5c92;
   --text: #f4f4f4;
-  --text-secondary: #d7dce3;
-  --disabled: #8d97ab;
+  --text-secondary: #c3d0e6;
+  --disabled: #6b7fa3;
 
   --primary: #f4a261;
   --primary-hover: #f6b67a;

@@ -1,4 +1,4 @@
-footer {
+.site-footer {
   margin-top: 4rem;
 
   background: var(--surface);
@@ -11,19 +11,19 @@ footer {
   align-items: center;
 }
 
-footer p {
+.footer-container p {
   color: var(--text-secondary);
 }
 
-footer .nav-list {
+.site-footer .nav-list {
   gap: 1.5rem;
 }
 
-footer li {
+.site-footer li {
   transition: 0.25s;
   cursor: pointer;
 }
 
-footer li:hover {
+.site-footer li:hover {
   color: var(--primary);
 }

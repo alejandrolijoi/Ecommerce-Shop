@@ -30,14 +30,20 @@
   color: var(--text);
 }
 
-.card p:first-of-type {
+.card-description {
   padding: 0 1rem;
   color: var(--text-secondary);
   line-height: 1.5;
   flex: 1;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
-.card p:last-of-type {
+.card-price {
   padding: 1rem;
   font-size: 1.35rem;
   font-weight: 700;
@@ -46,12 +52,4 @@
 
 .card button {
   margin: 0 1rem 1rem;
-}
-
-.card p:first-of-type {
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  line-clamp: 1;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
